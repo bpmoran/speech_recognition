@@ -21,7 +21,10 @@ This will start a virtual environment and install the required python packages.<
 </br>
 
 <h2> Known issues </h2>
-1. On install with Macbook M1 chips: 
+
+1. Starting and stopping recordings multiple times can lead to seg fault. 
+
+2. On install with Macbook M1 chips: 
 
 Error: `'portaudio.h' file not found #include "portaudio.h"`
 Fix: 
