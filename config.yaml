@@ -1,0 +1,11 @@
+RECORDER:
+  AUDIO_FORMAT: pyaudio.paInt16 # int or pyaudio library format-value
+  CHANNELS: 1
+  CHUNK : 1024
+  FRAME_RATE: 16000
+  INPUT_DEVICE_INDEX: 1
+  RECORD_SECONDS: 3
+  SAMPLE_SIZE: 2
+MODEL:
+  MODEL_NAME: "vosk-model-en-us-0.22"
+  
