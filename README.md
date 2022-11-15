@@ -17,7 +17,7 @@ This package is a speech recogition module using the vosk speech recognition too
 1. Run the install script from the command line with `source ./install.sh`.<br/>
 This will start a virtual environment and install the required python packages.<br/>
 2. Run print_channels.py to find your system's microphone index. Update INPUT_DEVICE_INDEX in config.yaml to the appropriate index. 
-3. Download your desired Vosk model from [https://alphacephei.com/vosk/models](the vosk website) and update your config to point at the model path. 
+3. Download your desired Vosk model from [the vosk website](https://alphacephei.com/vosk/models) and update your config to point at the model path. 
 
 </br>
 
