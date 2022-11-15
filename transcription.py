@@ -12,7 +12,7 @@ from threading import Thread
 from vosk import Model, KaldiRecognizer
 
 
-from thread_utils import threaded_user, threaded_daemon
+from utils.thread_utils import threaded_user, threaded_daemon
 
 class STMessage(Enum):
 

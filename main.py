@@ -23,6 +23,7 @@ transcriber.start_transcription()
 transcriber.start_listening() 
 # transcriber.stop_listening()
 
+sleep(1)
 usr = ''
 while usr != 'q':
     usr = input('Say something or press q to quit')
